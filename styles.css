@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  width: 85%;
+}
+
+section {
+  padding: 1em 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin: 0.5em 0;
+}
+
+p {
+  margin: 0.8em 0;
+  line-height: 1.4;
+}
+
+img {
+  display: block;
+}
+
+#img-caption {
+  margin-top: 0.4em;
+  text-align: center;
+}
+
+#tribute-info {
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+
+span {
+  font-weight: 600;
+}
+
+span::after {
+  content: " - ";
+}
+
+ul {
+  margin-bottom: 3em;
+}
+
+#work-list {
+  padding-top: 0.4em;
+}
+
+.about {
+  text-align: left;
+  margin: 0.5em auto;
+  padding-top: 0.7em;
+}
+
+ul > li {
+  padding: 0.35em;
+  line-height: 1.2;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#box-quote {
+  margin-top: 2.2em;
+  padding: 0 1em;
+}
+
+#visit {
+  margin-bottom: 2em;
+}
