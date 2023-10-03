@@ -1,22 +1,44 @@
+:root {
+  --green: #165b39;
+  --white: #F9F9F9;
+  --bg-gray: #eeeeee;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
-  width: 85%;
+}
+
+main {
+  background-color: var(--bg-gray);
+  padding: 1em;
 }
 
 section {
   padding: 1em 0;
 }
 
-h1,
-h2,
-h3,
-p {
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+a:hover {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+h1, h2 {
+  font-family: 'Tahoma', sans-serif;
+  color: var(--green);
+}
+
+h1, h2, h3, p {
   margin: 0;
   text-align: center;
 }
@@ -33,15 +55,33 @@ p {
 
 img {
   display: block;
+  padding: 1em 3em 0.6em;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #img-caption {
-  margin-top: 0.4em;
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
 }
 
+#img-div {
+  background: rgb(113,162,220);
+  background: linear-gradient(180deg, rgba(113,162,220,1) 0%, rgba(22,91,77,0.4500393907563025) 90%);
+  padding: 1.5em 0;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 #tribute-info {
-  max-width: 75%;
+  max-width:  75%;
   margin: 1em auto 2em;
 }
 
@@ -61,10 +101,9 @@ ul {
   padding-top: 0.4em;
 }
 
-.about {
-  text-align: left;
-  margin: 0.5em auto;
-  padding-top: 0.7em;
+#about {
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 ul > li {
@@ -72,17 +111,13 @@ ul > li {
   line-height: 1.2;
 }
 
-#image {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 #box-quote {
   margin-top: 2.2em;
   padding: 0 1em;
+  font-style: italic;
 }
 
 #visit {
   margin-bottom: 2em;
+  
 }
