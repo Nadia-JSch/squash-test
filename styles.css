@@ -16,12 +16,14 @@ body {
 
 main {
   background-color: var(--bg-gray);
+
   padding: 1em;
 }
 
 section {
   padding: 1em 0;
 }
+
 
 a {
   text-decoration: none;
@@ -64,6 +66,19 @@ img {
   width: 70%;
   margin: 0 auto;
   text-align: center;
+  font-size: 0.95rem;
+}
+
+#img-div {
+  background-color: #F9F9F9;
+  padding: 1.5em 0;
+  border-radius: 15px
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 #img-div {
